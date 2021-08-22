@@ -1,38 +1,36 @@
 import emoji from "react-easy-emoji";
 
-import googlelogo from "./assets/img/icons/common/google.svg";
-import github from "./assets/img/icons/common/github.svg";
-import airbnb from "./assets/img/icons/common/airbnbLogo.png";
+import collablearning from "./assets/img/icons/common/CollabLearningLogo.png";
+import osteofit from "./assets/img/icons/common/OsteofitLogo.png";
+import girlswhocode from "./assets/img/icons/common/GirlsWhoCodeLogo.png";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Katie Sidebotham",
+	title: "Hey friends, I'm Katie!",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"An ambitious student at the Rutgers University Honors College passionate about the intersectionality of technology, finance, and social good. I have experience building Web applications with Javascript / Reactjs / Nodejs / HTML / CSS. I also have experience building applications with Java which I currently study at university.",
+	resumeLink: "../assets/resume.pdf",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "katiesidebotham54",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	instagram: "https://www.instagram.com/katiesidebotham54/",
+	github: "https://github.com/katiesidebotham54",
+	linkedin: "https://www.linkedin.com/in/katie-sidebotham/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"STUDENT EAGER TO BECOME A FULL STACK PROGRAMMER. HERES WHAT I KNOW HOW TO DO SO FAR:",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+			"⚡ Develop interactive Frontend / User Interfaces for web applications"
 		),
 		emoji(
 			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
@@ -72,89 +70,62 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:nodejs-icon",
 		},
 		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
-		},
-		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
+			skillName: "java",
+			fontAwesomeClassname: "vscode-icons:file-type-java",
 		},
 		{
 			skillName: "npm",
 			fontAwesomeClassname: "vscode-icons:file-type-npm",
 		},
 		{
-			skillName: "sql-database",
-			fontAwesomeClassname: "vscode-icons:file-type-sql",
-		},
-		{
-			skillName: "mongoDB",
-			fontAwesomeClassname: "vscode-icons:file-type-mongo",
-		},
-		{
-			skillName: "aws",
-			fontAwesomeClassname: "logos:aws",
-		},
-		{
 			skillName: "firebase",
 			fontAwesomeClassname: "logos:firebase",
 		},
 		{
-			skillName: "python",
-			fontAwesomeClassname: "logos:python",
-		},
-		{
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
-		},
-		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
 		},
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "ReactJs", //Insert stack or technology you have experience in
+		progressPercentage: "85", //Insert relative proficiency in percentage
 	},
 	{
-		Stack: "Backend",
-		progressPercentage: "70",
+		Stack: "HTML",
+		progressPercentage: "95",
 	},
 	{
-		Stack: "Programming",
-		progressPercentage: "60",
+		Stack: "CSS",
+		progressPercentage: "80",
 	},
+	{
+		Stack: "Java",
+		progressPercentage: "75",
+	},
+	{
+		Stack: "React Native",
+		progressPercentage: "65",
+	}
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Rutgers University Honors College",
+		subHeader: "Majoring in Computer Science, Minoring in Economics",
+		duration: "September 2020 - Present (Expected May 2024)",
+		desc: "Member of ",
 		descBullets: [
 			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		],
 	},
 	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+		schoolName: "Randolph High School",
+		duration: "September 2016 - June 2020",
+		desc: "Ranked in first decile. Took courses about Software Engineering, Web Security, Operating Systems, ...",
 		descBullets: [
 			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
 		],
@@ -163,10 +134,10 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Software Engineer",
-		company: "Google",
-		companylogo: googlelogo,
-		date: "June 2018 – Present",
+		role: "Teaching Assistant",
+		company: "Girls Who Code",
+		companylogo: girlswhocode,
+		date: "June 2021 – August 2021",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		descBullets: [
 			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
@@ -174,49 +145,66 @@ export const experience = [
 		],
 	},
 	{
-		role: "Front-End Developer",
-		company: "Github",
-		companylogo: github,
-		date: "May 2017 – May 2018",
+		role: "Lead Web Developer",
+		company: "Osteofit",
+		companylogo: osteofit,
+		date: "Sept. 2020 – Present",
 		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 	},
 	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: airbnb,
-		date: "Jan 2015 – Sep 2015",
+		role: "Lead Front-End Developer",
+		company: "Collab Learning",
+		companylogo: collablearning,
+		date: "Sept. – Present",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 	},
 ];
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
-	},
-	{
-		name: "lorem ipsum",
+		name: "Elevate",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 		github: "https://github.com/1hanzla100",
 	},
 	{
-		name: "lorem ipsum",
+		name: "Too Good To Go Campaign",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 		github: "https://github.com/1hanzla100",
 		link: "https://example.com",
 	},
+	{
+		name:"Dr. Aid",
+		desc:"",
+		github: "https://gitlab.com/disasterrelief/cooper-union-csesg-boilerplate",
+		link: "https://devpost.com/software/dr-a"
+	}
 ];
 
-export const feedbacks = [
+export const interests = [
 	{
-		name: "Hassan Mehmood",
-		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+		name: "Environmentalism",
+		desc: "Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
+		image: girlswhocode,
+		icon: 'ni ni-world'
 	},
 	{
-		name: "Maheen Altaf",
-		feedback:
-			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
+		name: "Financial Education",
+		desc: "Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
+		image: girlswhocode,
+		icon: 'ni ni-money-coins'
 	},
+	{
+		name: "Music",
+		desc: "Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
+		image: girlswhocode,
+		icon: 'ni ni-note-03'
+	},
+	{
+		name: "Start Ups",
+		desc: "Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
+		image: girlswhocode,
+		icon: 'ni ni-shop'
+	}
 ];
+
+export const ambition = "Lorem ipsum dolorfdg sit amet, consectetur adipiscing elitLorem ipsum dolorfdg sit amet, consectetur adipiscing elitLorem ipsum dolorfdg sit amet, consectetur adipiscing elit";
