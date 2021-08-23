@@ -30,13 +30,13 @@ export const skillsSection = {
 		"STUDENT EAGER TO BECOME A FULL STACK PROGRAMMER. HERES WHAT I KNOW HOW TO DO SO FAR:",
 	skills: [
 		emoji(
-			"⚡ Develop interactive Frontend / User Interfaces for web applications"
+			"⚡ Develop interactive Frontend / User Interfaces for web applications using UI services like Material UI and Bootstrap"
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ Implementing product planning techniques for front end development with services including Mockflow and Figma "
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Integration of third party services such as Firebase, specifically hosting and authentication"
 		),
 	],
 
@@ -113,13 +113,14 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Rutgers University Honors College",
+		schoolName: "Rutgers University New Brunswick Honors College",
 		subHeader: "Majoring in Computer Science, Minoring in Economics",
 		duration: "September 2020 - Present (Expected May 2024)",
-		desc: "Member of ",
+		desc: "Member of the Honors College.",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Learning Assistant for Honors Forum 2021-2022",
+			"Relevant Coursework: Introduction in Computer Science, Data Structures, Calculus II, Writing for Business and Professions",
+			"Extracurriculars: Students for Environmental Awareness"
 		],
 	},
 	{
@@ -191,20 +192,74 @@ export const interests = [
 		name: "Financial Education",
 		desc: "Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
 		image: girlswhocode,
-		icon: 'ni ni-money-coins'
-	},
-	{
-		name: "Music",
-		desc: "Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		image: girlswhocode,
-		icon: 'ni ni-note-03'
+		icon: 'ni ni-money'
 	},
 	{
 		name: "Start Ups",
 		desc: "Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
 		image: girlswhocode,
 		icon: 'ni ni-shop'
-	}
+	},
 ];
 
 export const ambition = "Lorem ipsum dolorfdg sit amet, consectetur adipiscing elitLorem ipsum dolorfdg sit amet, consectetur adipiscing elitLorem ipsum dolorfdg sit amet, consectetur adipiscing elit";
+
+export const leadership = [
+	{
+		name: "President",
+		duration: "September 2020 - Present (Expected May 2024)",
+		company: "Future Business Leaders of America",
+		descBullets: [
+			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		],
+		icon: 'ni ni-briefcase-24 icon-lg icon-shape shadow rounded-circle text-info'
+
+	},
+	{
+		name: "Speaker at CCL Regional Conference",
+		duration: "March 2019",
+		company: "Citizens Climate Lobby",
+		descBullets: [
+			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		],
+		icon: 'fa fa-leaf icon-lg icon-shape shadow rounded-circle text-info'
+
+	},
+	{
+		name: "Software Developer Lead",
+		duration: "January 2021 - Septemeber 2021",
+		company: "ENACTUS",
+		descBullets: [
+			"Increased membership by 30%",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		],
+		icon: 'fa fa-laptop icon-lg icon-shape shadow rounded-circle text-info'
+
+	},
+	{
+		name: "Social Media Manager",
+		duration: "May 2021 - Present",
+		company: "Students For Environmental Awareness",
+		descBullets: [
+			"Increased membership by 30%",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		],
+		icon: 'fa fa-hashtag icon-lg icon-shape shadow rounded-circle text-info'
+
+	},
+	{
+		name: "Learning Assistant",
+		duration: "September 2021 - Present",
+		company: "Honors College Forum",
+		descBullets: [
+			"Increased membership by 30%",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		],
+		icon: 'fa fa-users icon-lg icon-shape shadow rounded-circle text-info'
+
+	}
+
+]
+

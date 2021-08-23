@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 
 const Projects = () => {
   return (
-    <section className="section bg-gradient-info my-5">
+    <section className="section my-5">
       <Container>
         <Fade bottom duration={1000} distance="40px">
           <div className="d-flex p-4">

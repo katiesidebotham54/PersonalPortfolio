@@ -4,11 +4,11 @@ import { Container, Col, Button, Row } from "reactstrap";
 import InterestsCard from "../components/InterestsCard";
 import { Fade } from "react-reveal";
 import code from "../assets/lottie/interests.json";
-import GreetingLottie from "../components/DisplayLottie";
-
+import InterestLottie from "../components/DisplayLottie";
+import "../mainStyles.css";
 const Interests = () => {
   return (
-    <section className="section section-lg">
+    <section className="section">
       <Container>
         <Fade bottom duration={1000} distance="40px">
           <div className="d-flex p-4">
@@ -30,8 +30,7 @@ const Interests = () => {
             <Col lg="5">
               <h1 className="display-3">My Ambitions</h1>
               <p className="lead">{ambition}</p>
-              <div className="btn-wrapper my-4"></div>
-              <GreetingLottie animationData={code} />
+              <InterestLottie className="interestLottie" animationData={code} />
             </Col>
           </Row>
         </Fade>

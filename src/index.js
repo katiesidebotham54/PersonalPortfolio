@@ -10,6 +10,7 @@ import Experience from "./containers/Experience";
 import Projects from "./containers/Projects";
 import GithubProfile from "./containers/GithubProfile";
 import Interests from './containers/Interests';
+import Leadership from './containers/Leadership';
 
 import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
@@ -23,6 +24,7 @@ ReactDOM.render(
 		<Proficiency />
 		<Education />
 		<Experience />
+		<Leadership />
 		<Projects />
 		<Interests />
 		<GithubProfile />
