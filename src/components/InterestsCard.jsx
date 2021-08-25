@@ -33,7 +33,9 @@ const InterestsCard = ({ data }) => {
                     <span className="btn-inner--icon">
                       <i className="fa fa-arrow-right mr-2" />
                     </span>
-                    <span className="nav-link-inner--text ml-1">Demo</span>
+                    <span className="nav-link-inner--text ml-1">
+                      Check it out!
+                    </span>
                   </Button>
                 ) : null}
               </div>

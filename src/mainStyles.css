@@ -1,3 +1,7 @@
 .interestLottie {
   max-width: 70%;
 }
+
+.interest-card {
+  padding-right: 6.5rem !important;
+}

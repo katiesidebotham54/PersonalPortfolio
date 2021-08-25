@@ -18,11 +18,11 @@ const Interests = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-info">My Interets</h4>
+              <h4 className="display-3 text-info">My Interests</h4>
             </div>
           </div>
           <Row>
-            <Col lg="7">
+            <Col lg="7" className="interest-card">
               {interests.map((data, i) => {
                 return <InterestsCard key={i} data={data} />;
               })}
@@ -30,7 +30,9 @@ const Interests = () => {
             <Col lg="5">
               <h1 className="display-3">My Ambitions</h1>
               <p className="lead">{ambition}</p>
-              <InterestLottie className="interestLottie" animationData={code} />
+              <div className="interestLottie">
+                <InterestLottie animationData={code} />
+              </div>
             </Col>
           </Row>
         </Fade>
