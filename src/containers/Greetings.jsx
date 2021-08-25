@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import code from "../assets/lottie/greeting.json";
+import resume from "../assets/resume.pdf";
 
 import { Fade } from "react-reveal";
 
@@ -43,8 +44,10 @@ const Greetings = () => {
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
-                        href={greetings.resumeLink}
-                        download="newfilename"
+                        href={resume}
+                        download={resume}
+                        target="_blank"
+                        placeholder="Katherine_Sidebotham_Resume"
                       >
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
