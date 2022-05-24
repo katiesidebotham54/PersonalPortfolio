@@ -30,7 +30,7 @@ const ExperienceCard = ({ data }) => {
   }
 
   return (
-    <Col lg="4">
+    <Col lg="3">
       <Fade left duration={1000} distance="40px">
         <Card
           style={{ flex: 1 }}

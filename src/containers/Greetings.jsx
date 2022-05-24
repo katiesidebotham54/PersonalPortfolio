@@ -44,8 +44,7 @@ const Greetings = () => {
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
-                        href={resume}
-                        download={resume}
+                        href="https://drive.google.com/file/d/1AbKhibgFYtnzD6NPJY_bIJavnxQh8-dZ/view?usp=sharing"
                         target="_blank"
                         placeholder="Katherine_Sidebotham_Resume"
                       >

@@ -3,13 +3,17 @@ import emoji from "react-easy-emoji";
 import collablearning from "./assets/img/icons/common/CollabLearningLogo.png";
 import osteofit from "./assets/img/icons/common/OsteofitLogo.png";
 import girlswhocode from "./assets/img/icons/common/GirlsWhoCodeLogo.png";
+import climit from "./assets/img/icons/common/CliMitLogo.svg";
+import cLogo from './assets/img/icons/common/Clogo.png';
+import arcgisLogo from './assets/img/icons/common/arcgis.png';
+
 
 export const greetings = {
 	name: "Katie Sidebotham",
 	title: "Hey friends, I'm Katie!",
 	description:
-		"An ambitious student at the Rutgers University Honors College passionate about the intersectionality of technology, finance, and social good. I have experience building Web applications with Javascript / Reactjs / Nodejs / HTML / CSS. I also have experience building applications with Java which I currently study at university.",
-	resumeLink: "../assets/resume.pdf",
+	"An ambitious student at the Rutgers University Honors College passionate about the intersectionality of technology, sustainability, & human interaction. I have experience with a variety of programming language including ReactJS / Java / Python. I am most interested in full stack development & product management — take a look at the rest of my site!",
+	resumeLink: "",
 };
 
 export const openSource = {
@@ -85,6 +89,18 @@ export const skillsSection = {
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
 		},
+		{
+			skillName: "c",
+			fontAwesomeClassname: cLogo,
+		},
+		{
+			skillName: "python",
+			fontAwesomeClassname: "logos:python",
+		},
+		{
+			skillName: "arcgis",
+			fontAwesomeClassname: arcgisLogo,
+		},
 	],
 };
 
@@ -99,7 +115,7 @@ export const SkillBars = [
 	},
 	{
 		Stack:'Python',
-		progressPercentage: "30",
+		progressPercentage: "55",
 	},
 	{
 		Stack: "CSS",
@@ -107,24 +123,30 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Java",
-		progressPercentage: "75",
+		progressPercentage: "90",
 	},
+	
 	{
 		Stack: "React Native",
-		progressPercentage: "65",
+		progressPercentage: "45",
+	},
+	{
+		Stack: "C",
+		progressPercentage: "45",
 	}
 ];
 
 export const educationInfo = [
 	{
 		schoolName: "Rutgers University New Brunswick Honors College",
-		subHeader: "Majoring in Computer Science, Minoring in Economics",
+		subHeader: "Double Majoring in Computer Science and Cognitive Science",
 		duration: "September 2020 - Present (Expected May 2024)",
-		desc: "Member of the Honors College.",
+		desc: "Member of the Honors College, GPA: 3.67",
 		descBullets: [
-			"Learning Assistant for Honors Forum 2021-2022",
-			"Relevant Coursework: Introduction in Computer Science, Data Structures, Calculus II, Writing for Business and Professions",
-			"Extracurriculars: Students for Environmental Awareness"
+			"Vice President of Students for Environmental Awareness",
+			"Recruiment Chair for Road to Silicon Valley",
+			"Learning Assistant for Honors Forum 2021-Present",
+			"Relevant Coursework: Intro to Computer Science, Data Structures, Calculus II, Intro to Discrete Structures I & II, Linear Algebra, Software Methodology, Computer Architecture",
 		],
 	},
 	{
@@ -142,43 +164,66 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Teaching Assistant",
-		company: "Girls Who Code Summer Immersion Program",
-		companylogo: girlswhocode,
-		date: "June 2021 – August 2021",
-		desc: "Taught 3 rounds of a 2-week program introducing high schoolers to foundational skills of HTML, CSS, & Javascript",
-		descBullets: [
-			"Led classroom activities and team-building exercises to promote sisterhood and cultivate a safe and supportive learning environment",
-			"Aided in the development of projects including a personal portfolio, a Buzzfeed-inspired quiz, & a website bringing awareness to a relevant social issue",
-		],
-	},
-	{
 		role: "Lead Web Developer",
 		company: "Osteofit LLC",
 		companylogo: osteofit,
-		date: "Sept. 2020 – Present",
-		desc: "Worked alongside another developer to build a website for Osteofit, a company dedicated to building single-use, sustainable reamers for orthopaedic surgeons.",
+		date: "Sept. 2020 – March 2022",
+		desc: "Worked alongside another developer to build a website for Osteofit, a company dedicated to building single-use, sustainable reamers for orthopaedic surgeons",
 		descBullets: [
-			"Mainly worked in HTML, SCSS, Javascript, and Bootstrap ",
+			"Mainly worked with HTML, SCSS, Javascript, and Bootstrap ",
 			"Designed logo for company using 3D Paint",
+		],
+	},
+	{
+		role: "CTO, COO",
+		company: "CliMit",
+		companylogo: climit,
+		date: "Sept. 2021 – Present",
+		desc: "Rutgers-based startup composed of 45 undergrad students building a platform for mitigating the impacts of climate change",
+		descBullets: [
+			"Lead a team of 8 developers in building a product for analyzing areas & outputting the best possible solution for mitigating climate-induced disasters",
+			"Integrate Machine Learning and GIS using Python & ArcGIS",
+			"Participant in Clinton Global Initiative University"
 		],
 	},
 	{
 		role: "Lead Front-End Developer",
 		company: "Collab Learning",
 		companylogo: collablearning,
-		date: "Sept. 2020 – Present",
-		desc: "An online platform combating the intimidation and stress of building relationships in large classes; uses a matchmaking system and active learning techniques to improve students' grades & overall wellbeing.",
+		date: "Sept. 2020 – Sept. 2021",
+		desc: "An online education platform for combating the intimidation and stress of building relationships in large classes",
 		descBullets: [
-			"Led workshops teaching members foundational skills of React Hooks, CSS, and HTML",
-			"Utilized Mockflow and Figma to design UI/UX of website",
-			"Developed landing page and MVP using React, React-Bootsrap, HTML, SCSS, Axios",
+			"Headed a team of 4 developers to program company’s landing page and MVP primarily with React JS, HTML, CSS, Bootstrap, Node JS",
+			"Led workshops teaching members foundational skills of React Hooks, CSS, & HTML",
+			"Utilized Mockflow & Figma to design UI/UX of website",
 		],
-
 	},
+	{
+		role: "Teaching Assistant",
+		company: "Girls Who Code",
+		companylogo: girlswhocode,
+		date: "June 2021 – August 2021",
+		desc: "Taught 60 high school students over a 6-week period for Summer Immersion Program introducing foundational skills of HTML, CSS, & Javascript",
+		descBullets: [
+			"Led classroom activities & team-building exercises to promote sisterhood and cultivate a supportive learning environment",
+			"Aided in the development of projects including a personal portfolio, a Buzzfeed-inspired quiz, & a website bringing awareness to a relevant social issue",
+		],
+	}
 ];
 
 export const projects = [
+	{
+		name: "Rutgers Cafe Simulator",
+		duration: "April 2022",
+		desc: "Online platform made using Java and Android Studio which simulates a cafe for users to order coffee and donuts and visualize/edit their orders.",
+		github: "",
+	},
+	{
+		name: "Machine Learning Rent Projector",
+		duration: "Oct 2021",
+		desc: "Machine-learning algorithm developed in C that estimates the house prices based on historical data and additional attributes & manages data using matrices",
+		github: "https://github.com/katiesidebotham54/One-Shot-Learning",
+	},
 	{
 		name: "Elevate",
 		duration: "May 2021-Present",
@@ -222,9 +267,9 @@ export const interests = [
 		link:"https://photos.app.goo.gl/o3yhcrXiwyP9s82N7"
 	},
 	{
-		name: "Finance",
-		desc: "I'm interested in the interectionality of technology and finance and creating ways for youth to receive comprehensive and useful financial education to better prepare them for the future. I'm also interested in investment banking and create efficient and secure ways for transactions to advance the economy",
-		icon: 'fa fa-money'
+		name: "Human Interaction",
+		desc: "As someone interested in SWE, I am in no way looking to be stuck behind a desk every day. I love learning from people and analyzing human interaction to better promote communication and create systems that allow others to broaden their social networks.",
+		icon: 'fa-solid fa-user'
 	},
 	{
 		name: "Music",
@@ -261,12 +306,12 @@ export const leadership = [
 
 	},
 	{
-		name: "Social Media Manager",
-		duration: "May 2021 - Present",
+		name: "Vice President",
+		duration: "May 2022 - Present",
 		company: "Students For Environmental Awareness",
 		descBullets: [
-			"Create unique and interactive posts for club's instagram using Canva",
-			"Maintain and design the club website using Wix",
+			"Organize and manage club events and coalition building",
+			"Maintain progress of club's 3 main campaigns focused on clean transpotation, administrative action, and food waste/insecurity",
 		],
 		icon: 'fa fa-hashtag icon-lg icon-shape shadow rounded-circle text-info'
 
@@ -274,11 +319,22 @@ export const leadership = [
 	{
 		name: "Learning Assistant",
 		duration: "September 2021 - Present",
-		company: "Honors College Forum",
+		company: "Rutgers Peer Learning Program",
 		descBullets: [
-			"Work alongside intructor to aid students through projects and assessments",
+			"Work alongside intructor to aid discussion and collaboration of 16 students for Honors College Forum",
 		],
 		icon: 'fa fa-users icon-lg icon-shape shadow rounded-circle text-info'
+
+	},
+	{
+		name: "CTO and COO",
+		duration: "November 2021 - Present",
+		company: "CliMit",
+		descBullets: [
+			"Lead the development of company's MVP using Python and Esri's ArcGIS mapping software",
+			"Participant of Clinton Global Initiative University (2022-Present)"
+		],
+		icon: 'fa fa-leaf icon-lg icon-shape shadow rounded-circle text-info'
 
 	}
 
