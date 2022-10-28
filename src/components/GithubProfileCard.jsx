@@ -28,9 +28,9 @@ const GithubProfileCard = ({ prof }) => {
                 Rising junior at Rutgers Honors College double majoring in
                 Computer Science and Cognitive Science. I'm always eager for new
                 experiences in research, community service, or programming
-                projects! Currently looking for co-ops for Fall 2022 and
-                internships for Summer 2023. Feel free to chat me using my
-                socials below or email me at kgs87@scarletmail.rutgers.edu
+                projects! Currently looking for internships for Summer 2023.
+                Feel free to chat me using my socials below or email 
+                me at kgs87@scarletmail.rutgers.edu
               </p>
 
               <SocialLinks />

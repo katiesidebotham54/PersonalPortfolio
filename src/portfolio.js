@@ -4,8 +4,7 @@ import collablearning from "./assets/img/icons/common/CollabLearningLogo.png";
 import osteofit from "./assets/img/icons/common/OsteofitLogo.png";
 import girlswhocode from "./assets/img/icons/common/GirlsWhoCodeLogo.png";
 import climit from "./assets/img/icons/common/CliMitLogo.svg";
-import cLogo from './assets/img/icons/common/Clogo.png';
-import arcgisLogo from './assets/img/icons/common/arcgis.png';
+import paramount from "./assets/img/icons/common/ParamountLogo.svg";
 
 
 export const greetings = {
@@ -90,17 +89,9 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:git-icon",
 		},
 		{
-			skillName: "c",
-			fontAwesomeClassname: cLogo,
-		},
-		{
 			skillName: "python",
 			fontAwesomeClassname: "logos:python",
-		},
-		{
-			skillName: "arcgis",
-			fontAwesomeClassname: arcgisLogo,
-		},
+		}
 	],
 };
 
@@ -127,7 +118,7 @@ export const SkillBars = [
 	},
 	
 	{
-		Stack: "React Native",
+		Stack: "Brightscript",
 		progressPercentage: "45",
 	},
 	{
@@ -141,11 +132,11 @@ export const educationInfo = [
 		schoolName: "Rutgers University New Brunswick Honors College",
 		subHeader: "Double Majoring in Computer Science and Cognitive Science",
 		duration: "September 2020 - Present (Expected May 2024)",
-		desc: "Member of the Honors College, GPA: 3.67",
+		desc: "Member of the Honors College, GPA: 3.61",
 		descBullets: [
 			"Vice President of Students for Environmental Awareness",
-			"Recruiment Chair for Road to Silicon Valley",
-			"Learning Assistant for Honors Forum 2021-Present",
+			"Recruitment Chair for Road to Silicon Valley",
+			"Learning Assistant for Intro to Computer Science",
 			"Relevant Coursework: Intro to Computer Science, Data Structures, Calculus II, Intro to Discrete Structures I & II, Linear Algebra, Software Methodology, Computer Architecture",
 		],
 	},
@@ -163,6 +154,18 @@ export const educationInfo = [
 ];
 
 export const experience = [
+	{
+		role: "Software Engineer Intern",
+		company: "Paramount+",
+		companylogo: paramount,
+		date: "June 2022-Present",
+		desc: "Worked on Roku Development team and Kids AVOD Web Team",
+		descBullets: [
+			"Helped with the Integration of new channel, My5, to Roku Platform",
+			"Aided in the deployment of new search component on Nick Jr Web Platform",
+			"Primary language used was Bright Script"
+		],
+	},
 	{
 		role: "Lead Web Developer",
 		company: "Osteofit LLC",
@@ -184,18 +187,6 @@ export const experience = [
 			"Lead a team of 8 developers in building a product for analyzing areas & outputting the best possible solution for mitigating climate-induced disasters",
 			"Integrate Machine Learning and GIS using Python & ArcGIS",
 			"Participant in Clinton Global Initiative University"
-		],
-	},
-	{
-		role: "Lead Front-End Developer",
-		company: "Collab Learning",
-		companylogo: collablearning,
-		date: "Sept. 2020 – Sept. 2021",
-		desc: "An online education platform for combating the intimidation and stress of building relationships in large classes",
-		descBullets: [
-			"Headed a team of 4 developers to program company’s landing page and MVP primarily with React JS, HTML, CSS, Bootstrap, Node JS",
-			"Led workshops teaching members foundational skills of React Hooks, CSS, & HTML",
-			"Utilized Mockflow & Figma to design UI/UX of website",
 		],
 	},
 	{
@@ -229,12 +220,6 @@ export const projects = [
 		duration: "May 2021-Present",
 		desc: "An app made using React Native, Elevate aims to personalize and guide users on their fitness track. Using a body diagram, users choose the specific region, learn about that region, and are presented with a variety of exercises and workout routines catered towards them. Users also have the ability to design their own playlists and track their progress!",
 		github: "https://github.com/Body-App/BodyApp",
-	},
-	{
-		name: "Too Good To Go Campaign",
-		duration: "August 2021- Present",
-		desc: "Initative focused on persuading companies in New Brunswick to join the app, Too Good to Go. The app lets involved businesses sell their leftover food to customers at discounted rates. This diminished food waste and provides feasible meal options for students on campus.",
-		link:"",
 	},
 	{
 		name: "Collab Learning",
@@ -283,29 +268,6 @@ export const ambition = "I love being a part of a community that is focused on i
 
 export const leadership = [
 	{
-		name: "President",
-		duration: "September 2019 - June 2020",
-		company: "Future Business Leaders of America",
-		descBullets: [
-			"Increased membership by 30% by introducing relevant speakers and presentations",
-			"Led workshops on resume building and mastering interviews",
-			"Prepared students for regional and national tournaments"
-		],
-		icon: 'ni ni-briefcase-24 icon-lg icon-shape shadow rounded-circle text-info'
-
-	},
-	{
-		name: "Speaker at CCL Regional Conference",
-		duration: "March 2019",
-		company: "Citizens Climate Lobby",
-		descBullets: [
-			"Chosen to speak on behalf of New Jersey Students Climate Advocates",
-			"Discussed the importance and relevance of implementing a state carbon fee in NJ",
-		],
-		icon: 'fa fa-leaf icon-lg icon-shape shadow rounded-circle text-info'
-
-	},
-	{
 		name: "Vice President",
 		duration: "May 2022 - Present",
 		company: "Students For Environmental Awareness",
@@ -321,7 +283,7 @@ export const leadership = [
 		duration: "September 2021 - Present",
 		company: "Rutgers Peer Learning Program",
 		descBullets: [
-			"Work alongside intructor to aid discussion and collaboration of 16 students for Honors College Forum",
+			"Lead 3 recitations per week on topics involving Java, recursion, and OOP, assisting 80+ students in CS-related fields",
 		],
 		icon: 'fa fa-users icon-lg icon-shape shadow rounded-circle text-info'
 
@@ -335,6 +297,16 @@ export const leadership = [
 			"Participant of Clinton Global Initiative University (2022-Present)"
 		],
 		icon: 'fa fa-leaf icon-lg icon-shape shadow rounded-circle text-info'
+
+	},
+	{
+		name: "Recruitment Lead",
+		duration: "Sept. 2022 - Present",
+		company: "Road to Silicon Valley",
+		descBullets: [
+			"Headed recruitment of 100+ applicants for RSVP’s 4th Cohort through digital marketing & selective interview process",
+		],
+		icon: 'fa fa-users icon-lg icon-shape shadow rounded-circle text-info'
 
 	}
 
