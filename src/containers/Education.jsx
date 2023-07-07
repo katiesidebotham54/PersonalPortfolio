@@ -1,9 +1,9 @@
 import React from "react";
-import EdutionCard from "../components/EdutionCard";
+import EducationCard from "../components/EducationCard";
 import { educationInfo } from "../portfolio";
 import { Container, Row, Col } from "reactstrap";
 
-const Edution = () => {
+const Education = () => {
   return (
     <section className="section bg-gradient-info my-5">
       <Container>
@@ -21,7 +21,7 @@ const Edution = () => {
           {educationInfo.map((info) => {
             return (
               <Col className="order-lg-1" lg="6" key={info.schoolName}>
-                <EdutionCard education={info} />
+                <EducationCard education={info} />
               </Col>
             );
           })}
@@ -43,4 +43,4 @@ const Edution = () => {
   );
 };
 
-export default Edution;
+export default Education;

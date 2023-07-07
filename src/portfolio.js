@@ -1,17 +1,15 @@
 import emoji from "react-easy-emoji";
-
-import collablearning from "./assets/img/icons/common/CollabLearningLogo.png";
-import osteofit from "./assets/img/icons/common/OsteofitLogo.png";
 import girlswhocode from "./assets/img/icons/common/GirlsWhoCodeLogo.png";
 import climit from "./assets/img/icons/common/CliMitLogo.svg";
 import paramount from "./assets/img/icons/common/ParamountLogo.svg";
+import rutgers from './assets/img/icons/common/rutgers.webp'
 
 
 export const greetings = {
 	name: "Katie Sidebotham",
 	title: "Hey friends, I'm Katie!",
 	description:
-	"An ambitious student at the Rutgers University Honors College passionate about the intersectionality of technology, sustainability, & human interaction. I have experience with a variety of programming language including ReactJS / Java / Python. I am most interested in full stack development & product management — take a look at the rest of my site!",
+	"An ambitious student at the Rutgers University Honors College passionate about the intersectionality of technology, sustainability, & human interaction. I have experience with a variety of programming language including Typescript / ReactJS / Java / Python. I am most interested in full stack development — take a look at the rest of my site!",
 	resumeLink: "",
 };
 
@@ -33,13 +31,13 @@ export const skillsSection = {
 		"STUDENT EAGER TO BECOME A FULL STACK PROGRAMMER. HERES WHAT I KNOW HOW TO DO SO FAR:",
 	skills: [
 		emoji(
-			"🌟 Develop interactive Frontend / User Interfaces for web applications using UI services like Material UI and Bootstrap"
+			"🌟 Programming frontend services with popular, relevant frameworks like React JS and Typescript"
 		),
 		emoji(
-			"🌟 Implementing product planning techniques for front end development with services including Mockflow and Figma "
+			"🌟 Implementing product planning techniques for full stack development with services including Mockflow, Figma, and Agile "
 		),
 		emoji(
-			"🌟 Integration of third party services such as Firebase, specifically hosting and authentication"
+			"🌟 Integration of third party services such as Firebase, AWS, prisma for seamless communication and workflow"
 		),
 	],
 
@@ -101,6 +99,10 @@ export const SkillBars = [
 		progressPercentage: "85", //Insert relative proficiency in percentage
 	},
 	{
+		Stack: "Typescript", //Insert stack or technology you have experience in
+		progressPercentage: "85", //Insert relative proficiency in percentage
+	},
+	{
 		Stack: "HTML",
 		progressPercentage: "95",
 	},
@@ -132,49 +134,38 @@ export const educationInfo = [
 		schoolName: "Rutgers University New Brunswick Honors College",
 		subHeader: "Double Majoring in Computer Science and Cognitive Science",
 		duration: "September 2020 - Present (Expected May 2024)",
-		desc: "Member of the Honors College, GPA: 3.61",
+		desc: "Member of the Honors College, GPA: 3.64",
 		descBullets: [
-			"Vice President of Students for Environmental Awareness",
-			"Recruitment Chair for Road to Silicon Valley",
+			"President of Students for Environmental Awareness",
+			"President of Road to Silicon Valley",
 			"Learning Assistant for Intro to Computer Science",
-			"Relevant Coursework: Intro to Computer Science, Data Structures, Calculus II, Intro to Discrete Structures I & II, Linear Algebra, Software Methodology, Computer Architecture",
+			"Relevant Coursework: Intro to Computer Science, Data Structures, Calculus II, Intro to Discrete Structures I & II, Linear Algebra, Software Methodology, Computer Architecture, Principles of Information Management and Databases, Intro to Artificial Intelligence, Computer Design and Algorithms"
 		],
-	},
-	{
-		schoolName: "Randolph High School",
-		duration: "September 2016 - June 2020",
-		desc: "Ranked in first decile. Weighted GPA: 4.5, Unweighted GPA: 3.8",
-		descBullets: [
-			"President of Future Business Leaders of America",
-			"National Honors Society, Math National Honors Society, English National Honors Society",
-			"Membership Director of Speech and Debate",
-			"Board of Education Student Representative",
-		],
-	},
+	}
 ];
 
 export const experience = [
 	{
-		role: "Software Engineer Intern",
+		role: "Roku Developer, Software Engineer Intern",
 		company: "Paramount+",
 		companylogo: paramount,
-		date: "June 2022-Present",
+		date: "June 2022-Nov. 2022",
 		desc: "Worked on Roku Development team and Kids AVOD Web Team",
 		descBullets: [
 			"Helped with the Integration of new channel, My5, to Roku Platform",
 			"Aided in the deployment of new search component on Nick Jr Web Platform",
-			"Primary language used was Bright Script"
+			"Primary language used was Bright Script and Javascript"
 		],
 	},
 	{
-		role: "Lead Web Developer",
-		company: "Osteofit LLC",
-		companylogo: osteofit,
-		date: "Sept. 2020 – March 2022",
-		desc: "Worked alongside another developer to build a website for Osteofit, a company dedicated to building single-use, sustainable reamers for orthopaedic surgeons",
+		role: "Learning Assistant",
+		company: "Rutgers Univeristy",
+		companylogo: rutgers,
+		date: "Sept. 2021 – May 2023",
+		desc: "Led weekly recitations for 3 sections of Introduction to Computer Science course, teaching the foundations of Java and computer science principles",
 		descBullets: [
-			"Mainly worked with HTML, SCSS, Javascript, and Bootstrap ",
-			"Designed logo for company using 3D Paint",
+			"Taught curriculum to over 60 students weekly",
+			"Aided in the review and debugging process of students' code",
 		],
 	},
 	{
@@ -182,7 +173,7 @@ export const experience = [
 		company: "CliMit",
 		companylogo: climit,
 		date: "Sept. 2021 – Present",
-		desc: "Rutgers-based startup composed of 45 undergrad students building a platform for mitigating the impacts of climate change",
+		desc: "Rutgers-based startup composed of 35 undergrad students building a platform for mitigating the impacts of climate change",
 		descBullets: [
 			"Lead a team of 8 developers in building a product for analyzing areas & outputting the best possible solution for mitigating climate-induced disasters",
 			"Integrate Machine Learning and GIS using Python & ArcGIS",
@@ -204,43 +195,40 @@ export const experience = [
 
 export const projects = [
 	{
+		name: "CliMit",
+		duration: "September 2021- Present",
+		desc: "Online platform for visualizing climate solutions for mitigating the impact of natural disasters",
+		link: "https://www.climit.co/",
+	},
+	{
 		name: "Rutgers Cafe Simulator",
 		duration: "April 2022",
 		desc: "Online platform made using Java and Android Studio which simulates a cafe for users to order coffee and donuts and visualize/edit their orders.",
-		github: "",
+	
+	},
+	{
+		name: "The Maze Solver",
+		duration: "April 2023",
+		desc: "Designed and implemented an A* search algorithm to trace the shortest path in 50 101x101 mazes using Python and path visualization integration in MATLAB",
+		link: "https://github.com/katiesidebotham54/mazePathFinder"
 	},
 	{
 		name: "Machine Learning Rent Projector",
 		duration: "Oct 2021",
 		desc: "Machine-learning algorithm developed in C that estimates the house prices based on historical data and additional attributes & manages data using matrices",
-		github: "https://github.com/katiesidebotham54/One-Shot-Learning",
-	},
-	{
-		name: "Elevate",
-		duration: "May 2021-Present",
-		desc: "An app made using React Native, Elevate aims to personalize and guide users on their fitness track. Using a body diagram, users choose the specific region, learn about that region, and are presented with a variety of exercises and workout routines catered towards them. Users also have the ability to design their own playlists and track their progress!",
-		github: "https://github.com/Body-App/BodyApp",
+		link: "https://github.com/katiesidebotham54/One-Shot-Learning"
 	},
 	{
 		name: "Collab Learning",
 		duration: "September 2020-Present",
 		desc: "Online platform that gamifies the learning process using active learning techniques and live interactions between students and teaching staff for effective and meaningful studying.",
-		github: "https://github.com/Collaboration-Learning",
 		link: "https://collablearning.org",
 	},
 	{
 		name: 'Osteofit LLC',
 		duration: "September 2020- Present",
 		desc: "Up and coming company that is transforming the orthopedic reamer industry. Osteofit is focused on creating single-use reamers that are sterile and sharp for each patient and recylcable after use. This aims to combat the flaws of the current procedure that relies on reusable reamers that dull after each use.",
-		github: 'https://github.com/katiesidebotham54/osteofit',
-		link: 'https://osteofitllc.com/',
-	},
-	{
-		name:"Dr. Aid",
-		duration: "September 2018",
-		desc:"Created during the Bytehacks Hackathon, Dr. Aid provides information for protecting and preparing for natural disasters. Included in the app is Google Maps for finding nearest shelter, surveys for determining an indivudal's prepareness for a disaster, and a text messaging system for helping those in crisis",
-		github: "https://gitlab.com/disasterrelief/cooper-union-csesg-boilerplate",
-		link: "https://devpost.com/software/dr-a"
+		link: 'https://github.com/katiesidebotham54/osteofit'
 	}
 ];
 
@@ -268,7 +256,7 @@ export const ambition = "I love being a part of a community that is focused on i
 
 export const leadership = [
 	{
-		name: "Vice President",
+		name: "President",
 		duration: "May 2022 - Present",
 		company: "Students For Environmental Awareness",
 		descBullets: [
@@ -300,11 +288,11 @@ export const leadership = [
 
 	},
 	{
-		name: "Recruitment Lead",
-		duration: "Sept. 2022 - Present",
+		name: "President",
+		duration: "Sept. 2023 - Present",
 		company: "Road to Silicon Valley",
 		descBullets: [
-			"Headed recruitment of 100+ applicants for RSVP’s 4th Cohort through digital marketing & selective interview process",
+			"Previously Recruitment Lead: Headed recruitment of 100+ applicants for RSVP’s 4th Cohort"
 		],
 		icon: 'fa fa-users icon-lg icon-shape shadow rounded-circle text-info'
 
